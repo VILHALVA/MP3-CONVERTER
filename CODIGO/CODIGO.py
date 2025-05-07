@@ -92,7 +92,13 @@ class AudioConverterApp:
             self.append_status(f"Convertendo: {filename}...\n")
 
             try:
-                result = subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
+                result = subprocess.run(
+                cmd,
+                stdout=subprocess.PIPE,
+                stderr=subprocess.PIPE,
+                text=True,
+                creationflags=subprocess.CREATE_NO_WINDOW
+            )
                 self.append_status(result.stderr)
             except Exception as e:
                 self.append_status(f"Erro ao converter {filename}: {e}\n")
