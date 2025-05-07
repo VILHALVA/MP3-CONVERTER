@@ -50,8 +50,7 @@ Este aplicativo converte automaticamente arquivos de áudio de diversos formatos
    python CODIGO.py
   ```
 
-4. Clique no botão **"DIRETÓRIO"** 
-   - E selecione a pasta que contém os arquivos de áudio que deseja converter.
+4. Clique no botão **"DIRETÓRIO"** e selecione a pasta que contém os arquivos de áudio que deseja converter.
 
 5. Clique no botão **"CONVERTER"** para iniciar a conversão.
 
@@ -81,7 +80,7 @@ Este aplicativo converte automaticamente arquivos de áudio de diversos formatos
    ```bash
    pyinstaller --icon="imagem.ico" -w -F CODIGO.py
    ```
-   
+
 ## NÃO SABE?
 - Entendemos que para manipular arquivos em muitas linguagens, é necessário possuir conhecimento nessas áreas. Para auxiliar nesse aprendizado, oferecemos cursos gratuitos disponíveis:
 * [CURSO DE PYTHON](https://github.com/VILHALVA/CURSO-DE-PYTHON)
