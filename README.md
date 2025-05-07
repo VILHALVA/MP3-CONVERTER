@@ -48,7 +48,7 @@ Este aplicativo converte automaticamente arquivos de áudio de diversos formatos
    - Execute o app iniciando-o com o seguinte comando no diretório `./CODIGO`:
    ```bash
    python CODIGO.py
-  ```
+   ```
 
 4. Clique no botão **"DIRETÓRIO"** e selecione a pasta que contém os arquivos de áudio que deseja converter.
 
