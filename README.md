@@ -64,7 +64,7 @@ Este aplicativo converte automaticamente arquivos de áudio de diversos formatos
 ### 1. EXECUTANDO:
 - Este arquivo executável está disponível apenas para `Windows X64`. Para executá-lo, basta dar dois cliques. O executável é bastante útil caso o Python não esteja instalado. Trata-se da mesma aplicação do arquivo `CODIGO.py`. Se desejar, você pode recompilá-lo novamente; é para isso que forneci o arquivo `imagem.ico`.
 
-**"Observação: Certifique-se de que o `ffmpeg` esteja instalado e adicionado à variável de ambiente PATH do sistema para que o executável funcione corretamente."**
+- **Observação:** Certifique-se de que o `ffmpeg` esteja instalado e adicionado à variável de ambiente PATH do sistema para que o executável funcione corretamente.
 
 ### 2. GERANDO:
    **1. Instalação do [PyInstaller:](https://pyinstaller.org/en/stable/)**
