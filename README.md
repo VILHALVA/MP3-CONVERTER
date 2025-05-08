@@ -24,7 +24,7 @@ Este aplicativo converte automaticamente arquivos de áudio de diversos formatos
    pip install -r requirements.txt
    ```
 
-2. **Instalar `ffmpeg`:** O `yt-dlp` depende de ferramentas externas chamadas `ffmpeg` e `ffprobe` para processar os arquivos de áudio e vídeo, como converter o formato do arquivo baixado `.webm` para `.mp3`.
+2. **Instalar `ffmpeg`:** O App depende da ferramenta externa chamada `ffmpeg` para converter os arquivos de áudio.
 
    1. **Baixar `ffmpeg`:**
       - Vá para o site oficial: [https://ffmpeg.org/download.html](https://ffmpeg.org/download.html).
@@ -63,6 +63,8 @@ Este aplicativo converte automaticamente arquivos de áudio de diversos formatos
 ## SOBRE O EXECUTAVEL:
 ### 1. EXECUTANDO:
 - Este arquivo executável está disponível apenas para `Windows X64`. Para executá-lo, basta dar dois cliques. O executável é bastante útil caso o Python não esteja instalado. Trata-se da mesma aplicação do arquivo `CODIGO.py`. Se desejar, você pode recompilá-lo novamente; é para isso que forneci o arquivo `imagem.ico`.
+
+**"Observação: Certifique-se de que o `ffmpeg` esteja instalado e adicionado à variável de ambiente PATH do sistema para que o executável funcione corretamente."**
 
 ### 2. GERANDO:
    **1. Instalação do [PyInstaller:](https://pyinstaller.org/en/stable/)**
